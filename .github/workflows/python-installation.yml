@@ -10,7 +10,7 @@ jobs:
         py-version: ["3.10", "3.11", "3.12"]
         exclude: 
           - py-version: ["3.12"]
-            os: "macos-14"
+            os: macos-14
     steps:
       - name: Set up Python
         uses: actions/setup-python@v5
